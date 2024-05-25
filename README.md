@@ -34,4 +34,6 @@ price of product)
 5. Team leaders can update info
 6. Members can communicate with each other by this system
 
+Please read the [final lab report](https://github.com/Akram1871/MarketWatch/blob/main/Lab%20Reports/Group%20E%20Final%20Report.pdf) for more details.
+
 
