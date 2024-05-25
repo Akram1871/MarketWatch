@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MarketWatch</string>
+    <array name="dept_name">
+        <item>TCB</item>
+        <item>CCI and E</item>
+        <item>NRB</item>
+        <item>Agricultural Department</item>
+    </array>
+</resources>

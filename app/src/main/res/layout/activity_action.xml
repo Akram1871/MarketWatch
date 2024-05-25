@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PL.ActionPL">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="?actionBarSize"
+                android:padding="20dp"
+                android:text="Action"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <LinearLayout
+            android:id="@+id/layout_1"
+            android:weightSum="7"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:text="Prod. Name"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="@drawable/table_content_cell_bg"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_height="30dp"/>
+            <TextView
+                android:layout_weight="5"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:background="@drawable/table_content_cell_bg"
+                android:text="Prod. Message"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:layout_height="30dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>
